@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center">
+
+        <Button android:id="@+id/grantLocationPermissions"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/activity_main_grant_permissions_button"
+            android:layout_marginBottom="12dp"/>
+
+        <Button android:id="@+id/turnOnLocationService"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/activity_main_turn_on_location_service_button"
+            android:layout_marginBottom="12dp"/>
+
+        <Button android:id="@+id/showPrivacyPolicy"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/activity_main_show_privacy_policy_dialog_button"
+            android:layout_marginBottom="12dp"/>
+
+        <Button android:id="@+id/showGdprMessage"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_marginBottom="12dp"
+            android:text="@string/activity_main_show_gdpr_button"/>
+
+        <Button android:id="@+id/showFragmentView"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/activity_main_show_fragment_button"/>
+
+    </LinearLayout>
+</layout>

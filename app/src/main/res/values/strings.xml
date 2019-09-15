@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cluify SDK Test App</string>
+
+    <string name="activity_main_grant_permissions_button">Grant permissions</string>
+    <string name="activity_main_turn_on_location_service_button">Turn on location</string>
+    <string name="activity_main_show_privacy_policy_dialog_button">Show privacy policy</string>
+    <string name="activity_main_show_gdpr_button">Show GDPR message</string>
+    <string name="activity_main_show_fragment_button">Show Fragment</string>
+
+    <string name="activity_main_permissions_granted_toast">Permissions are granted</string>
+    <string name="activity_main_permissions_not_granted_toast">Permissions are not granted</string>
+    <string name="activity_main_accept_privacy_policy_toast">Accept Privacy Policy</string>
+    <string name="activity_main_not_accept_privacy_policy_toast">Not Accept Privacy Policy</string>
+    <string name="activity_main_location_service_enabled_toast">The location service is running</string>
+</resources>
