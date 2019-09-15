@@ -26,7 +26,7 @@ allprojects {
             url 'https://artifactory.cluify.com/artifactory/cluify'
             credentials {
                 username = '###-userName-###'
-                password '###-password-###'
+                password = '###-password-###'
             }
         }
     }
